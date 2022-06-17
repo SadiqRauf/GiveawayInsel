@@ -28,6 +28,6 @@ Uploading Screen Recording 2022-06-12 at 12.10.22 AM.mov…
 
 <table>
  <tr>
-<td> <img src="https://user-images.githubusercontent.com/85580636/174341338-b01585ee-d5c8-463f-a675-31ab91b572a6.jpg" alt="Drawing"  width="820" height="450"/> </td>
+<td> <img src="https://user-images.githubusercontent.com/85580636/174341338-b01585ee-d5c8-463f-a675-31ab91b572a6.jpg" alt="Drawing"  width="840" height="450"/> </td>
 </tr>
 </table>
