@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_searchlocation.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_searchlocation.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_lock1.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_lock1.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_clock.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_clock.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_image3.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_image3.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_google.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_google.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_search.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_search.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_fb.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_fb.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_tiklock.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_tiklock.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_chat.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_chat.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_payment.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_payment.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_message1.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_message1.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_profilelocation.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_profilelocation.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_greenloc.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_greenloc.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_message.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_message.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_redeem.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_redeem.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_image4.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_image4.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_arrowright.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_arrowright.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_about.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_about.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_image.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_image.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_greenmsg.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_greenmsg.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_star.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_star.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_sticker1.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_sticker1.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_logo.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_logo.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_tick.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_tick.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_user.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_user.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowup.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowup.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_backarrow.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_backarrow.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_stickericon.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_stickericon.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_lock.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_lock.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_listing.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_listing.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_circleplus.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_circleplus.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_location1.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_location1.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowdown.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowdown.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowdown.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowdown.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_plus.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_plus.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_cloud.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_cloud.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_close.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_close.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_bell.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_bell.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_detail.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_detail.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_close.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_close.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_help.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_help.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_sticker2.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_sticker2.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_shadow.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_shadow.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_cloth.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_cloth.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowup.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowup.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_logout.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_logout.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_image2.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_image2.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_twitter.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_twitter.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_addressicon.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_addressicon.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_home.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_home.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_post.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_post.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_location.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_location.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_badge.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_badge.png"
+    }
+]

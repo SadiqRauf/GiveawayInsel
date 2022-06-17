@@ -1,0 +1,6 @@
+module Pods_GiveawayInsel {
+  umbrella header "Pods-GiveawayInsel-umbrella.h"
+
+  export *
+  module * { export * }
+}
