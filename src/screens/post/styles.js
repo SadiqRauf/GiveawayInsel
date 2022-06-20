@@ -3,14 +3,14 @@ import { Colors } from "../../common/Colors";
 export const styles = {
   container: {
     flex: 1,
-    backgroundColor: Colors.black
+    backgroundColor: Colors.black,
   },
   linearGradient: {
     flex: 1,
   },
-  productTxtView:{ 
-    paddingVertical: 10, 
-    marginTop: 10 
+  productTxtView: {
+    paddingVertical: 10,
+    marginTop: 10,
   },
   title: {
     fontSize: 18,
@@ -26,31 +26,31 @@ export const styles = {
     color: Colors.grey,
     fontFamily: "SairaCondensed-Light",
   },
-  forgotText:{
+  forgotText: {
     fontSize: 14,
     lineHeight: 22,
     textAlign: "right",
     color: Colors.grey,
     fontFamily: "SairaCondensed-Medium",
   },
-  accountText:{
+  accountText: {
     fontSize: 14,
     lineHeight: 22,
     color: Colors.white,
     fontFamily: "SairaCondensed-Medium",
   },
-  subAccountText:{
+  subAccountText: {
     fontSize: 14,
     lineHeight: 22,
     color: "green",
     fontFamily: "SairaCondensed-Medium",
   },
-  bottomView:{
-    flexDirection:'row',
-    justifyContent:'center',
-    paddingTop: 25
+  bottomView: {
+    flexDirection: "row",
+    justifyContent: "center",
+    paddingTop: 25,
   },
-  
+
   message: {
     height: 15,
     width: 20,
@@ -82,56 +82,80 @@ export const styles = {
     color: Colors.white,
     fontFamily: "SairaCondensed-Medium",
   },
-  socialContainer:{
+  socialContainer: {
     flexDirection: "row",
     justifyContent: "space-evenly",
     paddingHorizontal: 10,
   },
-  itemSeparator:{
+  itemSeparator: {
     backgroundColor: Colors.white,
   },
-  dropDown:{
+  dropDown: {
     backgroundColor: Colors.input,
     borderWidth: 0,
   },
-  dropDownText:{
+  dropDownText: {
     color: Colors.white,
     fontFamily: "SairaCondensed-Medium",
   },
-  dropDownContainer:{
+  dropDownContainer: {
     backgroundColor: Colors.input,
     borderWidth: 0,
-    zIndex:999
+    zIndex: 999,
   },
-  placeholder:{
+  placeholder: {
     fontSize: 16,
     lineHeight: 25,
-     color: Colors.white,
-    fontFamily:"SairaCondensed-Bold"
-    
+    color: Colors.white,
+    fontFamily: "SairaCondensed-Bold",
   },
-  picker:{
+  picker: {
     backgroundColor: Colors.white,
     borderRadius: 10,
     height: 50,
     width: 50,
-    marginEnd:5,
+    marginEnd: 5,
     justifyContent: "center",
     alignItems: "center",
   },
-  plus:{ height: 25, width: 25 },
-  timeText:{
+  removeIcon:{
+    width:20,
+    height:25,
+  },
+  removeBtn:{position:'absolute',
+  top:-10,
+  right:-5,
+  zIndex:99
+  },
+  plus: { height: 25, width: 25 },
+  timeText: {
     fontSize: 14,
     lineHeight: 22,
-    color: "lightgreen",
+    color: Colors.switchColor,
     fontFamily: "SairaCondensed-Medium",
   },
-  descriptionInput:{
+  timeFormat: {
+    fontSize: 14,
+    lineHeight: 22,
+    color: Colors.white,
+    fontFamily: "SairaCondensed-Medium",
+  },
+  timeView: {
+    backgroundColor: Colors.locationCard,
+    justifyContent: "center",
+    alignItems: "center",
+    marginHorizontal: 15,
+    paddingVertical: 7,
+    borderRadius: 10,
+    width: "25%",
+    marginBottom:15
+  },
+  descriptionInput: {
     backgroundColor: Colors.input,
-    height: 150,
     borderRadius: 15,
+    height: 150,
     padding: 15,
   },
-  clockIcon:{ height: 14, width: 14, marginLeft: 12 },
-  arrowRight:{ height: 14, width: 9, marginLeft: 12 }
+  clockIcon: { height: 14, width: 14, marginLeft: 12 },
+  arrowRight: { height: 14, width: 9, marginLeft: 12 },
 };

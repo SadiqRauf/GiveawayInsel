@@ -9,6 +9,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import React from "react";
+import moment from "moment";
 import { styles } from "./styles";
 import { Icon } from "../../common/Icon";
 import { Colors } from "../../common/Colors";
@@ -17,10 +18,9 @@ import InputField from "../../components/InputField";
 import LinearGradient from "react-native-linear-gradient";
 import DropDownPicker from "react-native-dropdown-picker";
 import PickupButton from "./components/PickupButton";
-import {launchImageLibrary} from 'react-native-image-picker';
+import { launchImageLibrary } from "react-native-image-picker";
 
 const CreatePost = ({ navigation }) => {
-
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState(null);
   const [items, setItems] = React.useState([
@@ -43,6 +43,7 @@ const CreatePost = ({ navigation }) => {
   ]);
 
   const [time, setTime] = React.useState();
+  const [date, setDate] = React.useState(new Date());
   const [openTime, setOpenTime] = React.useState(false);
 
   const [name, setName] = React.useState();
@@ -50,36 +51,40 @@ const CreatePost = ({ navigation }) => {
 
   const [image, setImage] = React.useState();
 
-  console.log("*******", time);
-  let t=time
+  // console.log("*******", moment(time).format("hh:mm a"));
+  console.log("*******", moment(time).format("hh:mm a"));
+  //   console.log("888getUTCHours.....",date.getUTCHours()); // Hours
+  // console.log("getUTCMinutes.....",date.getUTCMinutes());
+  // console.log("888getUTCHours88",date.getUTCSeconds())
+  // let t=time
 
- const ImagePicker =()=>{ 
-  const options = {
-    maxWidth: 2000,
-    maxHeight: 2000,
-    storageOptions: {
-      skipBackup: true,
-      path: "images",
-    },
+  const ImagePicker = () => {
+    const options = {
+      maxWidth: 2000,
+      maxHeight: 2000,
+      storageOptions: {
+        skipBackup: true,
+        path: "images",
+      },
+    };
+    launchImageLibrary(options, (res) => {
+      console.log("********", res);
+      if (res.didCancel) {
+        console.log("User cancelled image picker");
+      } else if (res.error) {
+        console.log("ImagePicker Error: ", res.error);
+      } else if (res.customButton) {
+        console.log("User tapped custom button: ", res.customButton);
+        alert(res.customButton);
+      } else {
+        // let source = res;
+        const source = res.assets[0].uri;
+        let img = JSON.stringify(source)?.replace(/"/g, "");
+        setImage(img);
+        console.log("//////", image);
+      }
+    });
   };
-   launchImageLibrary(options, (res) => {
-    console.log("********",res)
-    if (res.didCancel) {
-      console.log('User cancelled image picker');
-    } else if (res.error) {
-      console.log('ImagePicker Error: ', res.error);
-    } else if (res.customButton) {
-      console.log('User tapped custom button: ', res.customButton);
-      alert(res.customButton);
-    } else {
-      // let source = res;
-      const source = res.assets[0].uri;
-      let img = JSON.stringify(source)?.replace(/"/g, "")
-      setImage( img);
-      console.log("//////", image)
-    }
-  });
-};
 
   return (
     <SafeAreaView style={styles.container}>
@@ -111,7 +116,7 @@ const CreatePost = ({ navigation }) => {
                 placeholder="Lorem Ipsum"
                 placeholderTextColor={Colors.white}
                 onChangeText={(text) => setDescription(text)}
-                style={{color: Colors.white}}
+                style={{ color: Colors.white }}
               />
             </View>
           </View>
@@ -167,22 +172,28 @@ const CreatePost = ({ navigation }) => {
             />
           </View>
 
-          <View style={[styles.inputView, { zIndex: -99, }]}>
+          <View style={[styles.inputView, { zIndex: -99 }]}>
             <Text style={styles.email}>{"Upload Images"}</Text>
-            <View style={{flexDirection:"row"}}>
-            {image ?
-            <TouchableOpacity style={styles.picker}>
-              <Image source={{uri :image}} 
-              resizeMode={'cover'}
-              style={{
-                width:"100%",
-                height:"100%",
-                borderRadius: 10,
-              }} />
-            </TouchableOpacity>: null}
-            <TouchableOpacity onPress={ImagePicker} style={styles.picker}>
-              <Image source={Icon.plus} style={styles.plus} />
-            </TouchableOpacity>
+            <View style={{ flexDirection: "row" }}>
+              {image ? (
+                <View style={[styles.picker, { marginEnd: 10 }]}>
+                  <TouchableOpacity style={styles.removeBtn}>
+                    <Image source={Icon.remove} style={styles.removeIcon} />
+                  </TouchableOpacity>
+                  <Image
+                    source={{ uri: image }}
+                    resizeMode={"cover"}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      borderRadius: 10,
+                    }}
+                  />
+                </View>
+              ) : null}
+              <TouchableOpacity onPress={ImagePicker} style={styles.picker}>
+                <Image source={Icon.plus} style={styles.plus} />
+              </TouchableOpacity>
             </View>
           </View>
 
@@ -210,16 +221,17 @@ const CreatePost = ({ navigation }) => {
               <Image source={Icon.arrowRight} style={styles.arrowRight} />
             </TouchableOpacity>
           </View>
-             {/* <View>
-               <Text>{time}</Text>
-             </View> */}
+          <View style={styles.timeView}>
+            <Text style={styles.timeFormat}>
+              {moment(time).format("hh:mm a")}
+            </Text>
+          </View>
 
           <DatePicker
             modal
             mode="time"
-           
             open={openTime}
-            date={new Date()}
+            date={date}
             onConfirm={(time) => {
               setOpenTime(false);
               setTime(time);

@@ -39,4 +39,5 @@ export const Icon = {
   badge: require("../assets/Icons/badge.png"),
   stickerIcon: require("../assets/Icons/stickerIcon.png"),
   searchLoc: require("../assets/Icons/searchLocation.png"),
+  remove: require("../assets/Icons/remove.png"),
 };
