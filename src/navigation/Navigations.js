@@ -1,26 +1,27 @@
 import React from 'react';
-import {View, Platform, Image} from 'react-native'
+import {Image} from 'react-native'
 import {Icon} from '../common/Icon'
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import StartedScreen from '../screens/onboarding/GetStartedScreen';
-import SignUpScreen from '../screens/signup/SignUpScreen';
 import Home from '../screens/home/Home';
+import SplashScreen from './SplashScreen';
+import { Colors } from '../common/Colors';
+import Help from '../screens/profile/Help';
+import UserChat from '../screens/chat/UserChat';
+import AboutUs from '../screens/profile/AboutUs';
 import Location from '../screens/location/Location';
 import CreatePost from '../screens/post/CreatePost';
-import UserChat from '../screens/chat/UserChat';
 import UserProfile from '../screens/profile/UserProfile';
-import { Colors } from '../common/Colors';
-import RecomendedListing from '../screens/home/RecomendedListing  ';
 import DetailsScreen from '../screens/home/DetailsScreen';
-import AboutUs from '../screens/profile/AboutUs';
-import Help from '../screens/profile/Help';
-import SplashScreen from './SplashScreen';
+import SignUpScreen from '../screens/signup/SignUpScreen';
 import MyAddress from '../screens/profile/addresses/MyAddress';
-import CreateAddress from '../screens/profile/addresses/CreateAddress';
+import StartedScreen from '../screens/onboarding/GetStartedScreen';
+import RecomendedListing from '../screens/home/RecomendedListing  ';
 import YourListing from '../screens/profile/yourListing/YourListing';
-import EditDetailsScreen from '../screens/profile/detialsScreen/EditDetialsScreen';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import CreateAddress from '../screens/profile/addresses/CreateAddress';
 import EditProduct from '../screens/profile/detialsScreen/EditProduct';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import EditDetailsScreen from '../screens/profile/detialsScreen/EditDetialsScreen';
+
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -32,19 +33,20 @@ const Tab = createBottomTabNavigator();
       tabBarOptions={{
         showLabel: false,
         activeTintColor: '#996533',
-        // activeBackgroundColor:Colors.button,
         inactiveBackgroundColor:Colors.backgroundColor,
         style: {
       backgroundColor: Colors.backgroundColor,
-     
-      borderTopColor:Colors.backgroundColor, //Change Like This
+      borderTopColor:Colors.backgroundColor, 
     },
       }}>
       <Tab.Screen
         name="Home"
         component={Home}
         options={{
-          tabBarIcon: ({color, size}) => (
+          tabBarIcon: ({focused}) => (
+            focused ?
+            <Image source={Icon.home} style={{height:24, width:24}}/>
+            :
             <Image source={Icon.home} style={{height:21, width:21}}/>
           ),
         }}
@@ -54,7 +56,10 @@ const Tab = createBottomTabNavigator();
         component={Location}
         options={{
           tabBarLabel: 'Location',
-          tabBarIcon: ({color, size}) => (
+          tabBarIcon: ({focused}) => (
+            focused ?
+            <Image source={Icon.location} style={{height:24, width:25}}/>
+            :
             <Image source={Icon.location} style={{height:21, width:22}}/>
           ),
         }}
@@ -64,7 +69,10 @@ const Tab = createBottomTabNavigator();
         component={CreatePost}
         options={{
           tabBarLabel: 'Location',
-          tabBarIcon: ({color, size}) => (
+          tabBarIcon:({focused}) => (
+            focused ?
+            <Image source={Icon.post} style={{height:45, width:45}}/>
+            :
             <Image source={Icon.post} style={{height:40, width:40}}/>
           ),
   
@@ -75,7 +83,10 @@ const Tab = createBottomTabNavigator();
         component={UserChat}
         options={{
           tabBarLabel: 'Favorites',
-          tabBarIcon: ({color, size}) => (
+          tabBarIcon: ({focused}) => (
+            focused ?
+            <Image source={Icon.chat} style={{height:25, width:30}}/>
+            :
             <Image source={Icon.chat} style={{height:21, width:26}}/>
           ),
         }}
@@ -86,7 +97,10 @@ const Tab = createBottomTabNavigator();
         component={UserProfile}
         options={{
           tabBarLabel: 'Profile',
-          tabBarIcon: ({color, size}) => (
+          tabBarIcon: ({focused}) => (
+            focused ?
+            <Image source={Icon.user} style={{height:25, width:22}}/>
+            :
             <Image source={Icon.user} style={{height:21, width:18}}/>
           ),
         }}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">457836844240-5a8g7cv8qatamcc4dllludl8hjkknqvh.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://giveawayinsel-cae80-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">457836844240</string>
+    <string name="google_api_key" translatable="false">AIzaSyD8qNilreaY_vwo-vYFNW6i6tgrRAa6Fjk</string>
+    <string name="google_app_id" translatable="false">1:457836844240:android:be467e4a248ee88fae7ad5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD8qNilreaY_vwo-vYFNW6i6tgrRAa6Fjk</string>
+    <string name="google_storage_bucket" translatable="false">giveawayinsel-cae80.appspot.com</string>
+    <string name="project_id" translatable="false">giveawayinsel-cae80</string>
+</resources>

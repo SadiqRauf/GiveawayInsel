@@ -1,20 +1,42 @@
 import {
-  Image,
   Text,
   View,
-  TouchableOpacity,
   StatusBar,
   SafeAreaView,
 } from "react-native";
 import React from "react";
 import { styles } from "./styles";
-import { Colors } from "../../common/Colors";
 import { Icon } from "../../common/Icon";
-import LinearGradient from "react-native-linear-gradient";
-import ProfileItem from "./components/ProfileItem";
+import { Colors } from "../../common/Colors";
 import Button from "../../components/Button";
+import ProfileItem from "./components/ProfileItem";
+import LinearGradient from "react-native-linear-gradient";
+import auth,{firebase} from '@react-native-firebase/auth';
 
 const UserProfile = ({navigation}) => {
+
+  const logoutUser =()=>{
+    try {
+     const user = firebase.auth().signOut()
+     if(user){
+       console.log("vvvvvvv")
+      navigation.reset(
+        {
+          index: 0,
+          routes: [
+            {
+              name: 'StartedScreen',
+            },
+          ],
+        },
+        {logOut: true},
+      );
+    }
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <LinearGradient
@@ -39,7 +61,7 @@ const UserProfile = ({navigation}) => {
         <ProfileItem title={"About Us"} source={Icon.about} style={{ height: 25, width: 23 }} onPress={()=>navigation.navigate("AboutUs")}/>
 
         <View style={{ position: "absolute", bottom: 10, left: 0, right: 0 }}>
-          <Button source={Icon.logout} title={"Log out"} iconStyle={{height:20, width:17}} backgroundColor={Colors.button} />
+          <Button onPress={logoutUser} source={Icon.logout} title={"Log out"} iconStyle={{height:20, width:17}} backgroundColor={Colors.button} />
         </View>
       </LinearGradient>
     </SafeAreaView>

@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.fresco:ui-common:2.5.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/74900af06c739a1e0ec7e7a2e858ed8c/transformed/jetified-ui-common-2.5.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/74900af06c739a1e0ec7e7a2e858ed8c/transformed/jetified-ui-common-2.5.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/74900af06c739a1e0ec7e7a2e858ed8c/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4346040043437f62e2e91476c9d7f4ca/transformed/jetified-ui-common-2.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4346040043437f62e2e91476c9d7f4ca/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4346040043437f62e2e91476c9d7f4ca/transformed/jetified-ui-common-2.5.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/ui-common/2.5.0/66a5f47db887dae67f6b32117fd90965e6406005/ui-common-2.5.0-javadoc.jar!/" />

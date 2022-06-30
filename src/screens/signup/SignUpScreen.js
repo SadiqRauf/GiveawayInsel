@@ -6,19 +6,31 @@ import {
   SafeAreaView,
   TouchableOpacity,
 } from "react-native";
-import React, { useState } from "react";
-import InputField from "../../components/InputField";
-import { Icon } from "../../common/Icon";
 import { styles } from "./styles";
+import React, { useState } from "react";
+import { Icon } from "../../common/Icon";
 import Button from "../../components/Button";
 import { Colors } from "../../common/Colors";
+import InputField from "../../components/InputField";
 import SocialButton from "../../components/SocialButton";
+import auth,{firebase} from '@react-native-firebase/auth';
 
 const SignUpScreen = ({navigation}) => {
   const [name, setName] = useState()
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const [confirmPassword, setConfirmPassword] = useState();
+
+  const SignUpUser = async()=>{
+    try {
+      console.log("#######")
+       const user = await firebase.auth().createUserWithEmailAndPassword(email, password)
+        alert('Congratulations you are Successfully Registered!');
+        console.log('jkjl', user);
+      }catch(err ) {
+        console.log("ERROE", err)
+      }
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -77,6 +89,7 @@ const SignUpScreen = ({navigation}) => {
       <View style={{ paddingTop: 30 }}>
       <Button title={"Sign up"} 
         backgroundColor={Colors.button}
+        onPress={()=>SignUpUser()}
       />
 
       </View>

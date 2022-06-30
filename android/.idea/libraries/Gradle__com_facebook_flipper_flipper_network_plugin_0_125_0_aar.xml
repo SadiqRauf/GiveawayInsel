@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.flipper:flipper-network-plugin:0.125.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/674677064ce29f9763dc420868735b8b/transformed/jetified-flipper-network-plugin-0.125.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/674677064ce29f9763dc420868735b8b/transformed/jetified-flipper-network-plugin-0.125.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/674677064ce29f9763dc420868735b8b/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91f815b78050ec35dbd6ef39aca32dd4/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91f815b78050ec35dbd6ef39aca32dd4/transformed/jetified-flipper-network-plugin-0.125.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/91f815b78050ec35dbd6ef39aca32dd4/transformed/jetified-flipper-network-plugin-0.125.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.flipper/flipper-network-plugin/0.125.0/e57247e444b1287dc16bf8b7a1300f4ccbdca43c/flipper-network-plugin-0.125.0-javadoc.jar!/" />

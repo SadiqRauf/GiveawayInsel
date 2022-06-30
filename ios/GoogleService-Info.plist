@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>457836844240-5hv7n5p7u26k9uis3lvem6vlrrka6s8b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.457836844240-5hv7n5p7u26k9uis3lvem6vlrrka6s8b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABOLCKDt_yCn5PdO454gO8tegprP23HfA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>457836844240</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.giveawayinsel</string>
+	<key>PROJECT_ID</key>
+	<string>giveawayinsel-cae80</string>
+	<key>STORAGE_BUCKET</key>
+	<string>giveawayinsel-cae80.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:457836844240:ios:bbd936eefbe182c6ae7ad5</string>
+	<key>DATABASE_URL</key>
+	<string>https://giveawayinsel-cae80-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "457836844240",
+    "firebase_url": "https://giveawayinsel-cae80-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "giveawayinsel-cae80",
+    "storage_bucket": "giveawayinsel-cae80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457836844240:android:be467e4a248ee88fae7ad5",
+        "android_client_info": {
+          "package_name": "com.giveawayinsel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457836844240-58rg153f5suh8pncf7qkdu3ee41d43uu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.giveawayinsel",
+            "certificate_hash": "cc1e0dee2e1cba2e7b21054d9b02892bf144130c"
+          }
+        },
+        {
+          "client_id": "457836844240-5a8g7cv8qatamcc4dllludl8hjkknqvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8qNilreaY_vwo-vYFNW6i6tgrRAa6Fjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457836844240-5a8g7cv8qatamcc4dllludl8hjkknqvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "457836844240-5hv7n5p7u26k9uis3lvem6vlrrka6s8b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.giveawayinsel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

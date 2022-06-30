@@ -24,12 +24,12 @@
         "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_search.png"
     },
     {
-        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png.flat",
         "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_fb.png.flat",
@@ -120,12 +120,12 @@
         "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_star.png"
     },
     {
-        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable_rn_edit_text_material.xml.flat",
-        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable/rn_edit_text_material.xml"
-    },
-    {
         "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_sticker1.png.flat",
         "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_sticker1.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable/rn_edit_text_material.xml"
     },
     {
         "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_logo.png.flat",
@@ -138,6 +138,10 @@
     {
         "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_user.png.flat",
         "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_user.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_remove.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_remove.png"
     },
     {
         "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
@@ -172,12 +176,12 @@
         "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_icons_stickericon.png"
     },
     {
-        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_lock.png.flat",
         "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/drawable-mdpi/src_assets_lock.png"
+    },
+    {
+        "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/macbookpro/ReactNative/GiveawayInsel/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_listing.png.flat",
